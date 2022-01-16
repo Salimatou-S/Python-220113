@@ -12,3 +12,29 @@ On teste (2,5+3,75)/2  qui vaut 3,125. 3,125*3,125 vaut 9,765625.
 Donc le nombre recherchée est entre 3,125 et 3,75. On teste (3,125+3,75)/2 etc.
 On remarque qu’à chaque fois, on obtient deux nombres NBas et NHaut qui encadre la valeur de la racine carrée. L’intervalle entre ces deux nombres devient de plus en plus petit. On arrêtera les itérations du calcul lorsque la différence entre Nbas et NHaut sera plus petit que 0,001."""
 
+
+n= int(input("saisissez un nombre pour connaitre sa racine carré:> "))
+precision = 0.001
+sup = n
+inf = 0
+i = 0
+
+while i:
+    i+=1
+    sup = 0.5 * inf
+    inf = 0.5*(sup + n / sup)
+    
+    if (abs(inf - sup) < precision): break
+    
+    
+print("La racine carré est de", n, "est",inf)
+
+
+
+
+
+
+    
+
+    
+    

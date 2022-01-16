@@ -1,4 +1,4 @@
-"""Exo 1:
+"""Enoncé:
 Écrire un programme qui détermine la valeur de la racine carrée d’un entier sans jamais utiliser la fonction racine carrée.
 On procédera par approximation successive.
 Prenons par exemple la racine carrée de N=10.

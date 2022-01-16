@@ -3,14 +3,14 @@ Ecrire un programme qui demande à l’utilisateur 3 nombres entiers positifs et
 Le code n'effectuera pas de vérification concernant l'intervalle de 0 à 40000.""" 
 
 print("Saisir 3 nombres entiers positifs et plus petits que 40000 \n")
-nombre1 = int(input('Tapez la valeur de la variable1 : '))
-nombre2 = int(input('Tapez la valeur de la variable2 : '))
-nombre3 = int(input('Tapez la valeur de la variable3 : '))
+nombre1 = int(input('Tapez le nombre1 : '))
+nombre2 = int(input('Tapez le nombre2 : '))
+nombre3 = int(input('Tapez le nombre3 : '))
 
-print("voici les valeurs de variable1, de variable2 et variable3\n");
-print("première variable = ", nombre1)
-print("deuxième variable = ", nombre2)
-print("troisième variable = ", nombre3)
+print("voici les valeurs des nombre1, nombre2 et nombre3\n");
+print("premier nombre = ", nombre1)
+print("deuxième nombre = ", nombre2)
+print("troisième nombre = ", nombre3)
 
 if nombre1 < 0 or nombre2 < 0 or nombre3 < 0:
     print("Une ou plusieurs des valeurs entrées est inférieure à 0. Veuillez rentrer une autre valeur.") 

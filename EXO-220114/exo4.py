@@ -19,7 +19,7 @@ NBas = 0
 NHaut = n
 i = 0
 
-while NHaut - NBas > intervalle:
+while NHaut - NBas > intervalle: # on reduit a chaque fois l'intervalle entre NHaut et NBas. Tant que la valeur de NHaut - Nbas est > à 0.001, on fait las somme des 2 valeurs qu'on divise par 2 et on stocke dans une variable.
     Valeur = (NHaut + NBas)/2
     print("On teste la valeur ", Valeur)
     Nombre = Valeur * Valeur
